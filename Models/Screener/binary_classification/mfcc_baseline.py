@@ -22,18 +22,11 @@ def extract_mfcc(file, label, sampling_rate=16000, n_mfcc=13, melkwargs=None):
     try:
         waveform, sample_rate = torchaudio.load(filename)
     except Exception as e:
-        # Handle the error here
         print(f"Error opening file: {e}")
         mfcc = torch.zeros(13)
         print(mfcc.shape)
         return mfcc
 
-    # if sample_rate != sampling_rate:
-    #     # Resample to the required sampling rate (16kHz)
-    #     waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=sampling_rate)(waveform)
-
-    # If stereo (2 channels), convert to mono by averaging the channels
-    # Skip empty chunk files
     if waveform.shape[1] != 0:
         if waveform.shape[0] > 1:
             waveform = waveform.mean(dim=0, keepdim=False)  # Averaging the channels to get a mono signal
@@ -57,10 +50,6 @@ def extract_mfcc(file, label, sampling_rate=16000, n_mfcc=13, melkwargs=None):
 
 def preprocess_function(examples):
     # Extract the audio data from the examples
-    # filenames = [
-    # x.replace('chi_', 'chi_reduced_noise_') if not x.startswith('P') else x
-    # for x in examples['filename']
-    # ]
     filenames = examples['filename']
     labels = examples["label"]
 
@@ -141,7 +130,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     #parser.add_argument("--data_id", type=str, default="finetuning_data/4yo_childes_auris_UPDATED_large")
     parser.add_argument("--model_output_dir", type=str, default="mfcc_baseline_model")
-    parser.add_argument("--audio_dir", type=str, default="C:/Users/c.pouw/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Screener/MODEL/Segmented_test_4yo_chi/")
+    parser.add_argument("--audio_dir", type=str, default="")
     parser.add_argument("--split_dataset", type=str, default="finetuning_data/split_dataset")
     args = parser.parse_args()
     main(args)
