@@ -19,6 +19,9 @@ This script processes manually corrected `.TextGrid` files and the original `.wa
 Utility script to **standardize or correct filenames** of manually corrected `.TextGrid` files before feeding them into `cleaned_textgrid_to_formatted_wav.py`. 
 This ensures consistent file naming across the pipeline.
 
----
 
+## Contact
 
+Alex Elio Stasica (eliostasica@gmail.com)
+Charlotte Pouw (c.m.pouw@uva.nl)
+Louis Berard (berardlouis@gmail.com)
