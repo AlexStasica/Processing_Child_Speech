@@ -110,7 +110,7 @@ def main(data_dir, age_group):
 
 
 if __name__ == "__main__":
-    data_dir = 'C:/Users/c.pouw/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Screener'
+    data_dir = ''
     age_group = '4yo'
     dataset = main(data_dir, age_group)
 
