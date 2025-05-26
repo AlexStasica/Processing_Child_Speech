@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 52 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SPEAKER_00" 
+        xmin = 0 
+        xmax = 52 
+        intervals: size = 29 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.452 
+            text = "" 
+        intervals [2]:
+            xmin = 0.452 
+            xmax = 3.169 
+            text = "SPEAKER_00" 
+        intervals [3]:
+            xmin = 3.169 
+            xmax = 4.114 
+            text = "" 
+        intervals [4]:
+            xmin = 4.114 
+            xmax = 7.911 
+            text = "SPEAKER_00" 
+        intervals [5]:
+            xmin = 7.911 
+            xmax = 8.097 
+            text = "" 
+        intervals [6]:
+            xmin = 8.097 
+            xmax = 10.932 
+            text = "SPEAKER_00" 
+        intervals [7]:
+            xmin = 10.932 
+            xmax = 11.286 
+            text = "" 
+        intervals [8]:
+            xmin = 11.286 
+            xmax = 17.024 
+            text = "SPEAKER_00" 
+        intervals [9]:
+            xmin = 17.024 
+            xmax = 17.479 
+            text = "" 
+        intervals [10]:
+            xmin = 17.479 
+            xmax = 23.571 
+            text = "SPEAKER_00" 
+        intervals [11]:
+            xmin = 23.571 
+            xmax = 24.128 
+            text = "" 
+        intervals [12]:
+            xmin = 24.128 
+            xmax = 25.512 
+            text = "SPEAKER_00" 
+        intervals [13]:
+            xmin = 25.512 
+            xmax = 25.697 
+            text = "" 
+        intervals [14]:
+            xmin = 25.697 
+            xmax = 26.035 
+            text = "SPEAKER_00" 
+        intervals [15]:
+            xmin = 26.035 
+            xmax = 26.389 
+            text = "" 
+        intervals [16]:
+            xmin = 26.389 
+            xmax = 31.08 
+            text = "SPEAKER_00" 
+        intervals [17]:
+            xmin = 31.08 
+            xmax = 31.637 
+            text = "" 
+        intervals [18]:
+            xmin = 31.637 
+            xmax = 37.088 
+            text = "SPEAKER_00" 
+        intervals [19]:
+            xmin = 37.088 
+            xmax = 37.459 
+            text = "" 
+        intervals [20]:
+            xmin = 37.459 
+            xmax = 42.015 
+            text = "SPEAKER_00" 
+        intervals [21]:
+            xmin = 42.015 
+            xmax = 42.302 
+            text = "" 
+        intervals [22]:
+            xmin = 42.302 
+            xmax = 42.387 
+            text = "SPEAKER_00" 
+        intervals [23]:
+            xmin = 42.387 
+            xmax = 42.572 
+            text = "" 
+        intervals [24]:
+            xmin = 42.572 
+            xmax = 46.454 
+            text = "SPEAKER_00" 
+        intervals [25]:
+            xmin = 46.454 
+            xmax = 46.74 
+            text = "" 
+        intervals [26]:
+            xmin = 46.74 
+            xmax = 48.58 
+            text = "SPEAKER_00" 
+        intervals [27]:
+            xmin = 48.58 
+            xmax = 49.39 
+            text = "noise" 
+        intervals [28]:
+            xmin = 49.39 
+            xmax = 51.480761512532965 
+            text = "SPEAKER_00" 
+        intervals [29]:
+            xmin = 51.480761512532965 
+            xmax = 52 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 52 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.452 
+            text = "" 
+        intervals [2]:
+            xmin = 0.452 
+            xmax = 50.976 
+            text = "chi" 
+        intervals [3]:
+            xmin = 50.976 
+            xmax = 52 
+            text = "" 

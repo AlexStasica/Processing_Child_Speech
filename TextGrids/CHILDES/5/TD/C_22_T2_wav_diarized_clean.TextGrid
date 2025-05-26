@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 65 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SPEAKER_01" 
+        xmin = 0 
+        xmax = 65 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "chi" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 9.21 
+            text = "SPEAKER_01" 
+        intervals [3]:
+            xmin = 9.21 
+            xmax = 10.763 
+            text = "" 
+        intervals [4]:
+            xmin = 10.763 
+            xmax = 15.353 
+            text = "SPEAKER_01" 
+        intervals [5]:
+            xmin = 15.353 
+            xmax = 17.361 
+            text = "" 
+        intervals [6]:
+            xmin = 17.361 
+            xmax = 24.82 
+            text = "SPEAKER_01" 
+        intervals [7]:
+            xmin = 24.82 
+            xmax = 25.36 
+            text = "" 
+        intervals [8]:
+            xmin = 25.36 
+            xmax = 26.322 
+            text = "SPEAKER_01" 
+        intervals [9]:
+            xmin = 26.322 
+            xmax = 26.541 
+            text = "" 
+        intervals [10]:
+            xmin = 26.541 
+            xmax = 38.59 
+            text = "SPEAKER_01" 
+        intervals [11]:
+            xmin = 38.59 
+            xmax = 41.307 
+            text = "noise" 
+        intervals [12]:
+            xmin = 41.307 
+            xmax = 57.017 
+            text = "SPEAKER_01" 
+        intervals [13]:
+            xmin = 57.017 
+            xmax = 57.439 
+            text = "" 
+        intervals [14]:
+            xmin = 57.439 
+            xmax = 63.194 
+            text = "SPEAKER_01" 
+        intervals [15]:
+            xmin = 63.194 
+            xmax = 65 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SPEAKER_00" 
+        xmin = 0 
+        xmax = 65 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 15.353 
+            text = "chi" 
+        intervals [2]:
+            xmin = 15.353 
+            xmax = 15.809 
+            text = "" 
+        intervals [3]:
+            xmin = 15.809 
+            xmax = 16.619 
+            text = "SPEAKER_00adu" 
+        intervals [4]:
+            xmin = 16.619 
+            xmax = 17.361 
+            text = "" 
+        intervals [5]:
+            xmin = 17.361 
+            xmax = 38.59 
+            text = "chi" 
+        intervals [6]:
+            xmin = 38.59 
+            xmax = 41.307 
+            text = "" 
+        intervals [7]:
+            xmin = 41.307 
+            xmax = 63.323563625756385 
+            text = "chi" 
+        intervals [8]:
+            xmin = 63.323563625756385 
+            xmax = 65 
+            text = "" 
