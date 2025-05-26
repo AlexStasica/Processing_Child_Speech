@@ -1,0 +1,250 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 161 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SPEAKER_00" 
+        xmin = 0 
+        xmax = 161 
+        intervals: size = 59 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.4365612884181644 
+            text = "SPEAKER_00adu" 
+        intervals [3]:
+            xmin = 0.4365612884181644 
+            xmax = 3.9040169882727325 
+            text = "noise" 
+        intervals [4]:
+            xmin = 3.9040169882727325 
+            xmax = 6.215654121509112 
+            text = "" 
+        intervals [5]:
+            xmin = 6.215654121509112 
+            xmax = 14.577 
+            text = "" 
+        intervals [6]:
+            xmin = 14.577 
+            xmax = 15.842 
+            text = "SPEAKER_00adu" 
+        intervals [7]:
+            xmin = 15.842 
+            xmax = 22.187 
+            text = "" 
+        intervals [8]:
+            xmin = 22.187 
+            xmax = 23.655 
+            text = "SPEAKER_00adu" 
+        intervals [9]:
+            xmin = 23.655 
+            xmax = 25.107 
+            text = "" 
+        intervals [10]:
+            xmin = 25.107 
+            xmax = 25.545 
+            text = "SPEAKER_00chi_ns" 
+        intervals [11]:
+            xmin = 25.545 
+            xmax = 27.047 
+            text = "" 
+        intervals [12]:
+            xmin = 27.047 
+            xmax = 28.482 
+            text = "SPEAKER_00chi" 
+        intervals [13]:
+            xmin = 28.482 
+            xmax = 31.21850810934313 
+            text = "" 
+        intervals [14]:
+            xmin = 31.21850810934313 
+            xmax = 32.11 
+            text = "SPEAKER_00adu" 
+        intervals [15]:
+            xmin = 32.11 
+            xmax = 45.036 
+            text = "" 
+        intervals [16]:
+            xmin = 45.036 
+            xmax = 46.707 
+            text = "SPEAKER_00chi" 
+        intervals [17]:
+            xmin = 46.707 
+            xmax = 56.899 
+            text = "" 
+        intervals [18]:
+            xmin = 56.899 
+            xmax = 58.114 
+            text = "SPEAKER_00chi" 
+        intervals [19]:
+            xmin = 58.114 
+            xmax = 77.23183572224882 
+            text = "" 
+        intervals [20]:
+            xmin = 77.23183572224882 
+            xmax = 78.47327047898688 
+            text = "adu" 
+        intervals [21]:
+            xmin = 78.47327047898688 
+            xmax = 80.946 
+            text = "" 
+        intervals [22]:
+            xmin = 80.946 
+            xmax = 81.368 
+            text = "SPEAKER_00chi_ns" 
+        intervals [23]:
+            xmin = 81.368 
+            xmax = 84.861 
+            text = "" 
+        intervals [24]:
+            xmin = 84.861 
+            xmax = 86.16 
+            text = "SPEAKER_00chi" 
+        intervals [25]:
+            xmin = 86.16 
+            xmax = 91.122 
+            text = "" 
+        intervals [26]:
+            xmin = 91.122 
+            xmax = 93.45 
+            text = "SPEAKER_00chi" 
+        intervals [27]:
+            xmin = 93.45 
+            xmax = 93.552 
+            text = "" 
+        intervals [28]:
+            xmin = 93.552 
+            xmax = 94.328 
+            text = "SPEAKER_00adu" 
+        intervals [29]:
+            xmin = 94.328 
+            xmax = 97.484 
+            text = "" 
+        intervals [30]:
+            xmin = 97.484 
+            xmax = 98.58 
+            text = "SPEAKER_00chi" 
+        intervals [31]:
+            xmin = 98.58 
+            xmax = 104.605 
+            text = "" 
+        intervals [32]:
+            xmin = 104.605 
+            xmax = 105.921 
+            text = "SPEAKER_00chi" 
+        intervals [33]:
+            xmin = 105.921 
+            xmax = 107.828 
+            text = "" 
+        intervals [34]:
+            xmin = 107.828 
+            xmax = 108.149 
+            text = "SPEAKER_00chi_ns" 
+        intervals [35]:
+            xmin = 108.149 
+            xmax = 108.773 
+            text = "" 
+        intervals [36]:
+            xmin = 108.773 
+            xmax = 110.005 
+            text = "SPEAKER_00chi" 
+        intervals [37]:
+            xmin = 110.005 
+            xmax = 114.342 
+            text = "" 
+        intervals [38]:
+            xmin = 114.342 
+            xmax = 115.337 
+            text = "SPEAKER_00chi" 
+        intervals [39]:
+            xmin = 115.337 
+            xmax = 121.142 
+            text = "" 
+        intervals [40]:
+            xmin = 121.142 
+            xmax = 123.387 
+            text = "SPEAKER_00chi" 
+        intervals [41]:
+            xmin = 123.387 
+            xmax = 126.171 
+            text = "" 
+        intervals [42]:
+            xmin = 126.171 
+            xmax = 128.01 
+            text = "SPEAKER_00chi" 
+        intervals [43]:
+            xmin = 128.01 
+            xmax = 129.597 
+            text = "" 
+        intervals [44]:
+            xmin = 129.597 
+            xmax = 131.048 
+            text = "SPEAKER_00chi" 
+        intervals [45]:
+            xmin = 131.048 
+            xmax = 134.828 
+            text = "" 
+        intervals [46]:
+            xmin = 134.828 
+            xmax = 135.722 
+            text = "SPEAKER_00chi" 
+        intervals [47]:
+            xmin = 135.722 
+            xmax = 137.528 
+            text = "" 
+        intervals [48]:
+            xmin = 137.528 
+            xmax = 137.899 
+            text = "SPEAKER_00chi_ns" 
+        intervals [49]:
+            xmin = 137.899 
+            xmax = 139.671 
+            text = "" 
+        intervals [50]:
+            xmin = 139.671 
+            xmax = 141.105 
+            text = "SPEAKER_00chi" 
+        intervals [51]:
+            xmin = 141.105 
+            xmax = 145.409 
+            text = "" 
+        intervals [52]:
+            xmin = 145.409 
+            xmax = 147.636 
+            text = "SPEAKER_00chi" 
+        intervals [53]:
+            xmin = 147.636 
+            xmax = 149.577 
+            text = "" 
+        intervals [54]:
+            xmin = 149.577 
+            xmax = 150.623 
+            text = "SPEAKER_00chi" 
+        intervals [55]:
+            xmin = 150.623 
+            xmax = 152.378 
+            text = "" 
+        intervals [56]:
+            xmin = 152.378 
+            xmax = 153.981 
+            text = "SPEAKER_00chi" 
+        intervals [57]:
+            xmin = 153.981 
+            xmax = 156.175 
+            text = "" 
+        intervals [58]:
+            xmin = 156.175 
+            xmax = 157.947 
+            text = "SPEAKER_00chi" 
+        intervals [59]:
+            xmin = 157.947 
+            xmax = 161 
+            text = "" 

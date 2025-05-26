@@ -1,0 +1,182 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 65 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SPEAKER_01" 
+        xmin = 0 
+        xmax = 65 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.19593944053862702 
+            text = "" 
+        intervals [2]:
+            xmin = 0.19593944053862702 
+            xmax = 0.519362545039662 
+            text = "adu" 
+        intervals [3]:
+            xmin = 0.519362545039662 
+            xmax = 1.9424242048442155 
+            text = "" 
+        intervals [4]:
+            xmin = 1.9424242048442155 
+            xmax = 2.68 
+            text = "SPEAKER_01chi_ns" 
+        intervals [5]:
+            xmin = 2.68 
+            xmax = 4.613378269830543 
+            text = "" 
+        intervals [6]:
+            xmin = 4.613378269830543 
+            xmax = 6.525168176436661 
+            text = "noise" 
+        intervals [7]:
+            xmin = 6.525168176436661 
+            xmax = 8.299 
+            text = "" 
+        intervals [8]:
+            xmin = 8.299 
+            xmax = 10.037 
+            text = "SPEAKER_01chi" 
+        intervals [9]:
+            xmin = 10.037 
+            xmax = 10.392 
+            text = "chi" 
+        intervals [10]:
+            xmin = 10.392 
+            xmax = 10.814 
+            text = "SPEAKER_01chi" 
+        intervals [11]:
+            xmin = 10.814 
+            xmax = 11.168 
+            text = "chi" 
+        intervals [12]:
+            xmin = 11.168 
+            xmax = 12.957 
+            text = "SPEAKER_01chi" 
+        intervals [13]:
+            xmin = 12.957 
+            xmax = 25.36 
+            text = "" 
+        intervals [14]:
+            xmin = 25.36 
+            xmax = 25.95 
+            text = "SPEAKER_01chi_ns" 
+        intervals [15]:
+            xmin = 25.95 
+            xmax = 65 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SPEAKER_02" 
+        xmin = 0 
+        xmax = 65 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 15.606 
+            text = "" 
+        intervals [2]:
+            xmin = 15.606 
+            xmax = 20.871 
+            text = "SPEAKER_02chi" 
+        intervals [3]:
+            xmin = 20.871 
+            xmax = 34.101 
+            text = "" 
+        intervals [4]:
+            xmin = 34.101 
+            xmax = 37.037 
+            text = "SPEAKER_02chi" 
+        intervals [5]:
+            xmin = 37.037 
+            xmax = 37.206 
+            text = "chi" 
+        intervals [6]:
+            xmin = 37.206 
+            xmax = 38.51900413844338 
+            text = "SPEAKER_02chi" 
+        intervals [7]:
+            xmin = 38.51900413844338 
+            xmax = 39.754 
+            text = "" 
+        intervals [8]:
+            xmin = 39.754 
+            xmax = 41.94461211393211 
+            text = "SPEAKER_02chi" 
+        intervals [9]:
+            xmin = 41.94461211393211 
+            xmax = 44.445 
+            text = "" 
+        intervals [10]:
+            xmin = 44.445 
+            xmax = 51.803 
+            text = "SPEAKER_02chi" 
+        intervals [11]:
+            xmin = 51.803 
+            xmax = 52.073 
+            text = "chi" 
+        intervals [12]:
+            xmin = 52.073 
+            xmax = 54.402 
+            text = "SPEAKER_02chi" 
+        intervals [13]:
+            xmin = 54.402 
+            xmax = 54.655 
+            text = "chi" 
+        intervals [14]:
+            xmin = 54.655 
+            xmax = 54.925 
+            text = "SPEAKER_02chi" 
+        intervals [15]:
+            xmin = 54.925 
+            xmax = 55.515 
+            text = "chi" 
+        intervals [16]:
+            xmin = 55.515 
+            xmax = 59.076 
+            text = "SPEAKER_02chi" 
+        intervals [17]:
+            xmin = 59.076 
+            xmax = 59.65 
+            text = "chi" 
+        intervals [18]:
+            xmin = 59.65 
+            xmax = 62.046 
+            text = "SPEAKER_02chi" 
+        intervals [19]:
+            xmin = 62.046 
+            xmax = 62.333 
+            text = "chi" 
+        intervals [20]:
+            xmin = 62.333 
+            xmax = 64.56688361616062 
+            text = "SPEAKER_02chi" 
+        intervals [21]:
+            xmin = 64.56688361616062 
+            xmax = 65 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "SPEAKER_00" 
+        xmin = 0 
+        xmax = 65 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 42.47557113059305 
+            text = "" 
+        intervals [2]:
+            xmin = 42.47557113059305 
+            xmax = 43.66864302719687 
+            text = "SPEAKER_00adu" 
+        intervals [3]:
+            xmin = 43.66864302719687 
+            xmax = 65 
+            text = "" 
