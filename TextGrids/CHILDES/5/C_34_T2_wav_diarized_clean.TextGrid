@@ -1,0 +1,162 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 40 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "SPEAKER_00" 
+        xmin = 0 
+        xmax = 40 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.149 
+            text = "" 
+        intervals [2]:
+            xmin = 0.149 
+            xmax = 0.824 
+            text = "SPEAKER_00chi" 
+        intervals [3]:
+            xmin = 0.824 
+            xmax = 1.8554760215003725 
+            text = "" 
+        intervals [4]:
+            xmin = 1.8554760215003725 
+            xmax = 2.427 
+            text = "adu" 
+        intervals [5]:
+            xmin = 2.427 
+            xmax = 6.662 
+            text = "SPEAKER_00" 
+        intervals [6]:
+            xmin = 6.662 
+            xmax = 7.118 
+            text = "" 
+        intervals [7]:
+            xmin = 7.118 
+            xmax = 8.535 
+            text = "SPEAKER_00" 
+        intervals [8]:
+            xmin = 8.535 
+            xmax = 9.548 
+            text = "" 
+        intervals [9]:
+            xmin = 9.548 
+            xmax = 13.176 
+            text = "SPEAKER_00" 
+        intervals [10]:
+            xmin = 13.176 
+            xmax = 19.589 
+            text = "" 
+        intervals [11]:
+            xmin = 19.589 
+            xmax = 21.917 
+            text = "SPEAKER_00" 
+        intervals [12]:
+            xmin = 21.917 
+            xmax = 22.238 
+            text = "" 
+        intervals [13]:
+            xmin = 22.238 
+            xmax = 25.242 
+            text = "SPEAKER_00" 
+        intervals [14]:
+            xmin = 25.242 
+            xmax = 25.95 
+            text = "" 
+        intervals [15]:
+            xmin = 25.95 
+            xmax = 28.566 
+            text = "SPEAKER_00" 
+        intervals [16]:
+            xmin = 28.566 
+            xmax = 28.819 
+            text = "" 
+        intervals [17]:
+            xmin = 28.819 
+            xmax = 29.579 
+            text = "SPEAKER_00" 
+        intervals [18]:
+            xmin = 29.579 
+            xmax = 30.186 
+            text = "" 
+        intervals [19]:
+            xmin = 30.186 
+            xmax = 31.755 
+            text = "SPEAKER_00" 
+        intervals [20]:
+            xmin = 31.755 
+            xmax = 32.582 
+            text = "" 
+        intervals [21]:
+            xmin = 32.582 
+            xmax = 36.767 
+            text = "SPEAKER_00" 
+        intervals [22]:
+            xmin = 36.767 
+            xmax = 40 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "SPEAKER_01" 
+        xmin = 0 
+        xmax = 40 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 15.741 
+            text = "" 
+        intervals [2]:
+            xmin = 15.741 
+            xmax = 16.45 
+            text = "SPEAKER_01" 
+        intervals [3]:
+            xmin = 16.45 
+            xmax = 17.597 
+            text = "" 
+        intervals [4]:
+            xmin = 17.597 
+            xmax = 17.918 
+            text = "SPEAKER_01" 
+        intervals [5]:
+            xmin = 17.918 
+            xmax = 40 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 40 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.427 
+            text = "" 
+        intervals [2]:
+            xmin = 2.427 
+            xmax = 13.176 
+            text = "chi" 
+        intervals [3]:
+            xmin = 13.176 
+            xmax = 15.741 
+            text = "noise" 
+        intervals [4]:
+            xmin = 15.741 
+            xmax = 17.918 
+            text = "adu" 
+        intervals [5]:
+            xmin = 17.918 
+            xmax = 19.589 
+            text = "" 
+        intervals [6]:
+            xmin = 19.589 
+            xmax = 36.99160514408192 
+            text = "chi" 
+        intervals [7]:
+            xmin = 36.99160514408192 
+            xmax = 40 
+            text = "" 
