@@ -30,3 +30,8 @@ downloader(
     url="https://media.talkbank.org/childes/Clinical-Other/Zwitserlood/TD/8910",
     cookie="INSERT_YOUR_COOKIE_HERE"
 )
+
+
+## Contact
+
+Louis Berard (berardlouis@gmail.com)
