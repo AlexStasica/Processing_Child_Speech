@@ -86,3 +86,7 @@ Make sure to install the following libraries:
 
 The broader aim of this folder and its scripts is to contribute to a fully interpretable, automatic screener for speech and language disorders, which can aid early diagnosis and intervention.
 
+## Contact
+
+Alex Elio Stasica (eliostasica@gmail.com)
+Charlotte Pouw (c.m.pouw@uva.nl)
