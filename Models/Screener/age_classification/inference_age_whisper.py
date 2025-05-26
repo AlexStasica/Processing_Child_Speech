@@ -366,7 +366,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--split_dataset", type=str, default="finetuning_data/split_dataset_age")
     parser.add_argument("--audio_dir", type=str,
-                        default="C:/Users/a.stasica/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Desktop/Python/Screener/Processed_CHILDES/Segmented_age_whisper")
+                        default="")
     parser.add_argument("--finetuned_model_id", type=str, default="finetuned_model/age_classification_childes_whisper")
     args = parser.parse_args()
     main(args)
