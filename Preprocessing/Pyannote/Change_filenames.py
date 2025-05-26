@@ -46,4 +46,4 @@ def rename_files(data_dir, age_group):
             print(f'Renamed {file} to {new_name}')
 
 
-rename_files('C:/Users/a.stasica/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Desktop/Python/Screener', '4yo')
+rename_files(PATH, AGE_GROUP)
