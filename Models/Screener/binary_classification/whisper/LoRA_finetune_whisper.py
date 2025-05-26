@@ -59,8 +59,8 @@ def main(args):
         )
 
         return {
-            "input_features": inputs.input_features,  # The actual audio features
-            "labels": torch.tensor(examples["label"], dtype=torch.int64)  # Note: using "labels" instead of "label"
+            "input_features": inputs.input_features,  
+            "labels": torch.tensor(examples["label"], dtype=torch.int64)
         }
 
 
@@ -120,10 +120,10 @@ def main(args):
         train_data, test_data = split_dataset_by_original_filename(encoded_data, test_size=0.2, seed=42)
 
         # Define your exact desired counts
-        TRAIN_DLD_COUNT = 800  # DLD class (class 0)
-        TRAIN_TD_COUNT = 1000  # TD class (class 1)
-        TEST_DLD_COUNT = 100  # DLD test samples
-        TEST_TD_COUNT = 100  # TD test samples
+        TRAIN_DLD_COUNT =   # DLD class (class 0)
+        TRAIN_TD_COUNT =  # TD class (class 1)
+        TEST_DLD_COUNT =   # DLD test samples
+        TEST_TD_COUNT =   # TD test samples
 
         # Balance the training set with exact counts
         train_data = balance_dataset_exact(train_data,
