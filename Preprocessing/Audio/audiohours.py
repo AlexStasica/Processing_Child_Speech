@@ -3,16 +3,6 @@ import pandas as pd
 from pydub import AudioSegment
 
 
-"""def get_audio_duration_in_minutes(file_path):
-    # Load the audio file using pydub
-    audio = AudioSegment.from_file(file_path)
-    # Calculate duration in seconds, then convert to minutes
-    duration_in_seconds = len(audio) / 1000  # pydub works in milliseconds
-    minutes_duration = duration_in_seconds // 60
-    seconds_duration = round(duration_in_seconds % 60, 3)
-    return minutes_duration, ':', seconds_duration"""
-
-
 def get_audio_duration_in_minutes(file_path):
     sound = AudioSegment.from_file(file_path)
     #duration calculation function
@@ -22,8 +12,6 @@ def get_audio_duration_in_minutes(file_path):
     seconds_duration = round((sound.duration_seconds % 60),3)
     duration = f"{minutes_duartion}:{seconds_duration}"
     return duration
-
-
 
 
 def get_audio_files_with_durations(folder_path):
@@ -37,7 +25,6 @@ def get_audio_files_with_durations(folder_path):
             file_path = os.path.join(folder_path, file_name)
             duration = get_audio_duration_in_minutes(file_path)
             audio_data.append((file_name, duration))
-
     return audio_data
 
 
@@ -49,8 +36,8 @@ def save_to_excel(audio_data, output_file):
 
 
 def main():
-    folder_path = './CHILDES_audio/TD/Zwitserlood_TD'
-    output_folder = './CHILDES_audio'
+    folder_path = ''
+    output_folder = ''
 
     if os.path.isdir(folder_path):
         audio_data = get_audio_files_with_durations(folder_path)
