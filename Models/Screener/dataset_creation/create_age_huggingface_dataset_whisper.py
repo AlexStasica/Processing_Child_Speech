@@ -103,7 +103,6 @@ def main(data_dir):
     else:
         print("The 'Segmented' folder already exists. Skipping the splitting process.")
 
-    # First define a mapping from folder names to simplified labels
     age_group_mapping = {
         '3_0_3_6': '3_1',
         '3_7_3_12': '3_2',
@@ -124,7 +123,6 @@ def main(data_dir):
     files_dld_segmented = []
     dld_labels = []
 
-    # DLD only has 4 and 5 year olds, but we'll use the same age mapping
     for age_folder, label in age_group_mapping.items():
         if not age_folder.startswith('3_'):  # Skip 3yo folders for DLD
             age_files = glob.glob(f'{segmented_audio_dir}/dld/{age_folder}/*.wav')
@@ -166,7 +164,7 @@ def main(data_dir):
 
 
 if __name__ == "__main__":
-    data_dir = 'C:/Users/a.stasica/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Desktop/Python/Screener/Processed_CHILDES'
+    data_dir = ''
     dataset = main(data_dir)
 
 
