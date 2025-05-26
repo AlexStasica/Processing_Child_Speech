@@ -14,9 +14,9 @@ TO DO:
 """
 
 
-AUDIO_FOLDER = "C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/Audio"
-TEXTGRID_FOLDER = "C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/TextGrid"
-OUTPUT_FOLDER = "C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/Formatted"
+AUDIO_FOLDER = "Audio"
+TEXTGRID_FOLDER = "TextGrid"
+OUTPUT_FOLDER = "Formatted"
 #/!\Make sure to follow the naming convention: /!\
 #   Audio files: xxxx.wav
 #   Textfiles:   xxxx_diarized_clean.TextGrid
@@ -241,5 +241,4 @@ def input(audio_folder, textgrid_folder, output_folder, segment_options):
     workbook.save(f'{output_folder}/{folder_name}durations.xlsx')
     print("Spreadsheet created.")
 
-#input(AUDIO_FOLDER,TEXTGRID_FOLDER,OUTPUT_FOLDER,segment_options)
-input("C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/Audio","C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/Textgrid","C:/Users/l.berard/Downloads/TD-3yo/TD-3yo/Formatted",segment_options)
+input(AUDIO_FOLDER,TEXTGRID_FOLDER,OUTPUT_FOLDER,segment_options)
