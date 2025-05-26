@@ -40,7 +40,7 @@ def extract_mfcc(file, label, sampling_rate=16000, n_mfcc=13, melkwargs=None):
     elif label == 0:
         folder = os.path.join(args.audio_dir, 'dld')
 
-    original_filename = file  # This is the filename stored in your dataset (without _partX)
+    original_filename = file 
 
     # Find all matching segmented files
     search_pattern = os.path.join(folder, f"{original_filename}_part*.wav")
@@ -99,7 +99,6 @@ def preprocess_function(examples):
     # Process each audio example
     for i, audio in enumerate(filenames):
         label = labels[i]
-        # Assuming extract_mfcc is the function to extract MFCC features
         mfcc = extract_mfcc(audio, label)
 
         # Check for NaN or Inf values
@@ -148,7 +147,7 @@ def main(args):
     print(f"Shape of X_train: {X_train.shape}")
     print(f"Shape of X_test: {X_test.shape}")
 
-    # Apply t-SNE for dimensionality reduction (e.g., reduce to 2D)
+    # Apply t-SNE for dimensionality reduction 
     tsne = TSNE(n_components=2, random_state=42)
 
     # Flatten MFCCs before applying t-SNE
@@ -213,20 +212,16 @@ def main(args):
                 print(f"Skipping item {i} because it is missing required keys.")
                 continue
 
-            input_features = item["input_features"]  # This is the preprocessed audio feature sequence
+            input_features = item["input_features"]  
             label = item["label"]
-            filename = item.get("original_filename", "unknown")  # Use a default value if filename is missing
+            filename = item.get("original_filename", "unknown")  
             original_filename = item.get("original_filename", "unknown")  # Get the original filename
 
             # Debug: print filename
             print(f"Processing file: {filename}")
 
-            # Convert input features to tensor (assuming it's a list of lists or array-like structure)
+            # Convert input features to tensor 
             input_tensor = torch.tensor(input_features)
-
-            # If the model expects a specific shape (e.g., [batch_size, num_features]),
-            # ensure the tensor has the correct shape.
-            # Example: If input_features is a sequence of features, you might need to add a batch dimension:
             input_tensor = input_tensor.unsqueeze(0)  # Add a batch dimension if needed
 
             # Run inference
@@ -299,7 +294,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--split_dataset", type=str, default="finetuning_data/split_dataset")
     parser.add_argument("--audio_dir", type=str,
-                        default="C:/Users/a.stasica/OneDrive - Stichting Onderwijs Koninklijke Auris Groep - 01JO/Desktop/Python/Screener/MODEL/Segmented_4_chins_whisper")
+                        default="")
     parser.add_argument("--finetuned_model_id", type=str, default="finetuned_model/4yo_childes_auris_whisper")
     args = parser.parse_args()
     main(args)
